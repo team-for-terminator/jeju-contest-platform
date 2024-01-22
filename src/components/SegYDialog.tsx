@@ -37,7 +37,7 @@ const SegYDialog = ({
               disabled={!parking_list.includes(index)}
             >
               <IoIosImages size={20} />
-              주차가능구역
+              착륙선정구역
             </TabsTrigger>
           </TabsList>
           <TabsContent value='1'>

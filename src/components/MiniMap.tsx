@@ -99,7 +99,7 @@ const MiniMap = () => {
           onMouseOut={handleMouseUp}
         />
         <div
-          className='group flex items-center justify-center absolute top-[240px] left-[500px] w-[100px] h-[100px] rounded-full border-2 border-slate-300 hover:scale-110 transition duration-300 hover:shadow-md'
+          className='group flex items-center justify-center absolute top-[100px] left-[900px] w-[100px] h-[100px] rounded-full border-2 border-slate-300 hover:scale-110 transition duration-300 hover:shadow-md'
           onClick={() => {
             router.push('/map/search');
           }}
