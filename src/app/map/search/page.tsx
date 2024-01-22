@@ -167,7 +167,7 @@ const Map = () => {
                         }}
                       />
                       {parking_list.includes(index) ? (
-                        <div className='absolute top-1/2 left-1/2  w-1 h-1 rounded-full bg-red-600' />
+                        <div className='absolute top-1 left-1 w-2 h-2 rounded-full bg-red-600' />
                       ) : null}
                     </div>
                   </SearchContextMenu>

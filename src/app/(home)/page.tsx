@@ -50,24 +50,6 @@ const Dashboard = () => {
             </Button>
           </CardFooter>
         </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle>Super Resolution</CardTitle>
-          </CardHeader>
-          <CardContent>준비중..</CardContent>
-          <CardFooter className='flex justify-end'>
-            <Button>시작하기</Button>
-          </CardFooter>
-        </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle>Segmentation</CardTitle>
-          </CardHeader>
-          <CardContent>준비중..</CardContent>
-          <CardFooter className='flex justify-end'>
-            <Button>시작하기</Button>
-          </CardFooter>
-        </Card>
       </article>
     </main>
   );
